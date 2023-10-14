@@ -18,7 +18,7 @@ header {
 
 header::before {
     content: "";
-    background-image: url(assets/2ioO6.png);
+    background-image: url(/assets/2ioO6.png);
     filter: blur(2px);
     position: absolute;
     top: 0;
@@ -68,6 +68,7 @@ h1 {
 
 .portfolio-item img {
     max-width: 100%;
+    height: auto;
 }
 
 .portfolio-item p {
